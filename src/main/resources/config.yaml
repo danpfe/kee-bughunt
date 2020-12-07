@@ -1,0 +1,9 @@
+kumuluzee:
+  server:
+    context-path: /test
+    https:
+      enabled: true
+      keystore-path: pki/jks/keystore.p12
+      keystore-password: changeit
+      key-alias: server
+      key-password: changeit
